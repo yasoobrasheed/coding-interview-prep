@@ -22,7 +22,7 @@ def cycleSort(arr):
         if (index == cycleStart):
             continue
 
-        # Put in front of a duplicate then write
+        # Put in front of a duplicate if exists then write
         while chosenElem == arr[index]:
             index += 1
 
